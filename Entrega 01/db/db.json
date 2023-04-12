@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Fender",
+    "Description": "Telecaster",
+    "price": "1500",
+    "thumbnail": "https://e7.pngegg.com/pngimages/156/25/png-clipart-fender-american-elite-telecaster-electric-guitar-fender-telecaster-fender-musical-instruments-corporation-fender-american-deluxe-series-electric-guitar-players-poster.png",
+    "code": 100,
+    "stock": 100,
+    "id": 1
+  }
+]
