@@ -1,0 +1,18 @@
+{
+  "name": "Backend Coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .//class/app.js"
+  },
+  "keywords": [],
+  "author": "Leonardo Contarino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
