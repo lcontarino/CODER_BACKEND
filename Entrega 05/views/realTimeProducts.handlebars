@@ -1,0 +1,45 @@
+<div>
+    <h1>
+        RealTime Products Socket
+    </h1>
+    <div class="container p-4">
+       
+           <div class="card"> 
+   
+        <form onsubmit="return addMessage()" class="card card-body">
+            <div class="form-group">
+                 <label for="title">Nombre</label>
+                <input type="text" class="form-control" id="username" placeholder="Nombre" autofocus required>
+            </div>
+            <div class="form-group">
+                <label for="title">Descripcion</label>
+                
+                <textarea name="Descripcion" id="texto" placeholder="Descripcion" rows="2" class="form-control"> </textarea>
+       </div>
+      
+        <input type="submit" value="Enviar">
+      
+    </form>
+      
+      
+    
+    </div>   
+       
+  
+    </div>
+    
+    <form onsubmit="return deleteMessage()">
+        
+        <label for="product-select">Describa producto a eliminar:</label>
+        
+      <input type="text" id="delusername" placeholder="Producto a Eliminar">
+      
+      <input type="submit" value="Eliminar">
+      
+    </form>
+</div>
+<div id="caja"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="/js/index.js"></script>
