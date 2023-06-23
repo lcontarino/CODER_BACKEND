@@ -1,0 +1,49 @@
+.category-tile{
+    height: 250px;
+    background-size: cover;
+    background-color: bisque;
+    padding-left: 20px !important ;
+    padding-right: 20px !important ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+.home-banner{
+    max-width: 1200px;
+}
+
+
+.card{
+    border:none;
+    width: 100%;
+}
+
+img.card-img-top.product-preview-img{
+    border-radius: 10px;
+}
+
+.category-tile:hover{
+    transform: scale(1.05);
+}
+
+.sale__banner--container img {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+.see-more-books{
+  background-color: black;
+ justify-content: right;
+  width: auto;
+   float: right;
+   
+}
+.card-title{
+    font-size: 10px;
+}
+
